@@ -46,6 +46,7 @@ const view2 = {
     this.exibirPostOpcional(resultPost.id);
   }
 }
+view2.exibirPostGet()
   /*NÃO CONCLUÍDO POR FALTA DE TEMPO
   async exibirPostOpcional(id){
     let result = await getPost();
@@ -63,6 +64,5 @@ const view2 = {
   }
 }
 
-view2.exibirPostGet()
 */
 
