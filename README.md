@@ -12,6 +12,6 @@ npm start
 ```
 1. Descreva possíveis otimizações de performance que você poderia fazer no seu
 próprio código:<br> 
-<b>Como ainda estou aprendendo não consigo responder esta perguntar.</b>
+<b>Como ainda estou aprendendo não consigo responder esta pergunta.</b>
 2. O que você poderia ter melhorado?<br>
-<b>Melhorado a parte de design, não consegui terminar de fazer o opcional devido a problemas particulares.
+<b>Melhorado a parte de design, não consegui terminar de fazer o opcional e implementar outras funcionalidades devido a problemas particulares.
