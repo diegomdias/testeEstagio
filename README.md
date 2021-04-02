@@ -10,3 +10,8 @@ npm install
 ```bash
 npm start
 ```
+1. Descreva possíveis otimizações de performance que você poderia fazer no seu
+próprio código: 
+<b>Como ainda estou aprendendo não consigo responder esta perguntar.</b>
+2. O que você poderia ter melhorado?
+<b>Melhorado a parte de design, não consegui terminar de fazer o opcional devido a problemas particulares.
