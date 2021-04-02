@@ -1,25 +1,24 @@
 import "core-js"
 import "regenerator-runtime/runtime"
-
 import { getPost } from "./api";
-
 const section = document.querySelector('section');
 
 async function exibirPost(){
   let result = await getPost();
   result.forEach(element => {
-    const p = document.createElement('p');
     const div = document.createElement('div');
+    div.classList.add('div-content');
     const h1 = document.createElement('h1');
-    div.appendChild(h1);
-    div.appendChild(p);
-    section.appendChild(div);
+    const p = document.createElement('p');
+    const a  = document.createElement('a');
+    a.href = `./post.html?$id=${element.id}&title=${element.title}&body=${element.body}`;
     h1.textContent = element.title;
     p.textContent = element.body;
-    div.classList.add('div-content');
-    console.log(element);
+    section.appendChild(div);
+    div.appendChild(a);
+    a.appendChild(h1);
+    div.appendChild(p);
   })
-  
 }
 exibirPost();
 
