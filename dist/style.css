@@ -16,17 +16,23 @@ header {
   justify-content: center;
   align-items: center;
 }
-.iconify {
-  margin: 0px 3px;
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
 }
 
-section {
-  padding: 0.5%;
+.section-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
-h1 {
-  font-size: 1.13em;
-  border-bottom: 1px solid #f0f0f0;
-  color: #23256d;
+
+.iconify {
+  margin: 0px 3px;
 }
 
 .content {
@@ -38,7 +44,6 @@ h1 {
   justify-content: center;
 }
 .div-content {
-  cursor: pointer;
   padding: 0.1%;
   text-align: center;
   color: #3a3a3a;
@@ -48,15 +53,36 @@ h1 {
   width: 300px;
   transition: 0.6s;
 }
+
 .div-content:hover {
   transition: 0.6s;
   border-radius: 0px 0px 50px 0px;
   box-shadow: 0px 0px 2px 0px #6a6a6a;
 }
 
+.div-blog{
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  max-width: 6  0%;
+  height: 400px;
+  background-color: #ffffff;
+}
+
+h1 {
+  cursor: pointer;
+  font-size: 1.13em;
+  border-bottom: 1px solid #f0f0f0;
+  color: #23256d;
+}
+
 h1::before {
   content: "•";
-  color: #fc6b41;
+  color: #c0c0c0;
+}
+
+h1:hover::before {
+  color: #fa530c;
 }
 
 ul li {
@@ -66,7 +92,7 @@ ul li {
 
 .bg-mov {
   padding: 0px 20px;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .bg1,
@@ -84,4 +110,13 @@ ul li {
 }
 .bg3 {
   background-color: #fc6b41;
+}
+
+.result{
+  text-align: center;
+  display: flex;
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+  justify-content: center;
 }
